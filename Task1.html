@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <style>
+            *{
+                background-color: rgb(204, 230, 222);
+            }
+
+            .t1{
+                margin-left: 290px;
+                margin-top: 70px;
+                border: 3px solid black; 
+                }
+
+            .t2{ 
+                padding-top: 10px;  
+                padding-bottom: 10px;
+                width: 200px;
+                font-size: 20px;
+                border: 2px solid black;
+                background-color: rgba(97, 163, 218, 0.788);
+
+            }
+
+            .t12{ 
+                width: 200px;
+                font-size: 20px;
+                border: 2px solid black;
+                background-color: rgba(97, 163, 218, 0.788);
+                color: rgb(0, 0, 0);
+
+            }
+
+            .t3{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 2px solid black;
+                background-color: rgba(97, 163, 218, 0.788);
+            }
+
+            .t13{
+                border: 2px solid black;
+                background-color: rgba(97, 163, 218, 0.788);
+            }
+
+            .t04{ 
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 30px;
+                padding-left: 320px;
+                border: 2px solid black;
+                background-color: rgba(97, 163, 218, 0.788);
+            }
+
+            .t4{ 
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                padding-left: 170px;
+                border: 2px solid black;       
+                background-color: rgba(97, 163, 218, 0.788);
+
+            }
+
+            .t14{ 
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                padding-left: 150px;
+                background-color: rgba(97, 163, 218, 0.788);
+
+                }
+
+            .t5{ 
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 170px;
+                border: 2px solid black;
+            }
+
+            #m01{
+                background-color: rgb(243, 243, 75);
+                font-weight: bold;
+                color: rgb(224, 68, 68);
+            }
+
+            #m02{
+                background-color: rgb(243, 243, 75);
+                font-weight: bold;
+                color: rgb(224, 68, 68);
+            }
+
+        </style>
+
+        <title>Login Form</title>
+    </head>
+    <body>
+        <table class="t1">
+            
+            <tr>
+                <td class="t04" id="m01" colspan="2"> USER FORM </td> 
+            </tr>
+
+            <tr>
+                <td class="t12">  Enter Name :</td> 
+                <td class="t13"> <input type="text" name="fname" size="60">  </td>
+            </tr>  
+
+            <tr>
+                <td class="t12"> Password :</td> 
+                <td class="t13"> <input type="password" name="fname" size="60">  </td>
+            </tr> 
+
+            <tr>
+                <td class="t12">  Email Address : </td> 
+                <td class="t13"> <textarea rows="4" cols="59" ></textarea>  </td>
+            </tr>
+            
+            <tr>
+                <td class="t2"> Select Game :</td> 
+                <td class="t3"> 
+                    <input type="checkbox" id="game1" name="game1" value="Hockey1">Hockey<br>
+                    <input type="checkbox" id="game1" name="game1" value="Football1">Football <br>
+                    <input type="checkbox" id="game1" name="game1" value="Badminton1">Badminton <br>
+                    <input type="checkbox" id="game1" name="game1" value="Cricket1">Cricket <br>
+                    <input type="checkbox" id="game1" name="game1" value="Volleyball1">Volleyball <br>
+                </td>
+            </tr> 
+            <tr>
+                <td class="t2">  Gender : </td> 
+                <td class="t3"> 
+                    <input type="radio" id="male" name="gender" value="male">Male
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="female" name="gender" value="female">Female<br>  
+                </td>
+            </tr>
+
+            <tr>
+                <td class="t4"  colspan="2">Select a file:
+                <input type="file" id="myfile" name="myfile"> </td> 
+            </tr>
+
+            <tr>
+                
+                <td class="t14" rowspan="2">
+                    <button class="t5"  type="button">Click Me!</button>    
+                </td> 
+                <td class="t14" rowspan="2">
+                    <button class="t5"  type="button"> Reset </button>    
+                </td>
+            </tr>
+            </table>
+    </body>
+</html>
